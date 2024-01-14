@@ -1,0 +1,21 @@
+.section3 {
+    text-transform: capitalize;
+background-color: black;
+  
+  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+.section3 .heading{
+    margin-bottom:70px;
+
+}
+.section3 h2{
+    font-weight: 700;
+}
+.section3 p{
+
+}

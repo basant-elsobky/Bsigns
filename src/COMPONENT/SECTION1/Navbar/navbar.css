@@ -1,0 +1,42 @@
+.navbar li a{
+    color: white !important;
+margin-right: 35px;
+opacity: .9;
+font-size: 14px;
+line-height: 22.4px
+;
+text-transform: capitalize;
+}
+.nav-item > .active {
+    border-bottom: 1px solid yellow;
+}
+@media (max-width:500px) {
+    .nav-item > .active {
+        border-bottom: none;
+    }
+}
+.navbar ul{
+    overflow-wrap: break-word;
+}
+.navbar button{
+    background: white;
+}
+.navbar-expand-lg{
+    width: 100%;
+    display: flex;
+
+
+    justify-content: space-between;
+
+    align-items: center;
+    height: 100%;
+    position: relative;
+
+}
+.header.bg-black {
+    background-color: #111 !important;
+  }
+  
+  .header.bg-transparent {
+    background-color: transparent !important;
+  }

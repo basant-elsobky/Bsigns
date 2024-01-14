@@ -1,0 +1,17 @@
+.parent {
+    display: grid;
+    
+    }
+    
+    
+
+    .grid{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      padding-bottom: 70px;
+    }
+    .grid .col-sm-12{
+        padding: 10px;
+        margin-top: 20px;
+    }

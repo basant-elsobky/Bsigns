@@ -1,0 +1,11 @@
+.card{
+    background-color: #0f0f0f !important;
+    border-color: #1c1c1c;
+    color: white !important;
+}
+.card img{
+    transition: transform .2s;
+}
+.card img:hover{
+    transform: scale(0.9);
+}

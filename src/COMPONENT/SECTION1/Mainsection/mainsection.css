@@ -1,0 +1,22 @@
+
+
+.mainsection{
+padding-top: 250px;
+ margin-bottom: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.small-heading{
+    color: var(--main_color);
+    font-size: 18px;
+    margin-top: -4px;
+    text-align: center;
+}
+.big-heading h2{
+    font-size: clamp(60px, 20vw, 5.6rem);
+
+    font-weight: 400;
+    line-height: 1.2em;
+ 
+}
