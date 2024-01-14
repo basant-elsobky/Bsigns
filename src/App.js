@@ -9,15 +9,15 @@ import Footer from './COMPONENT/FOOTER/Footer';
 
 function App() {
   useEffect(() => {
-    AOS.init(); // Initialize AOS when the component mounts
+    AOS.init(); 
   }, []);
   return (
     <>
 
       <Section1 />
       <Section2 />
-      <Section3/>
-<Footer/>
+      <Section3 />
+      <Footer />
     </>
   );
 }

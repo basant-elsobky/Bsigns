@@ -10,6 +10,12 @@ text-transform: capitalize;
 .nav-item > .active {
     border-bottom: 1px solid yellow;
 }
+.navbar-brand{
+    padding-left: 10px;
+}
+.navbar-toggler{
+    padding-right: 10px;
+}
 @media (max-width:500px) {
     .nav-item > .active {
         border-bottom: none;
