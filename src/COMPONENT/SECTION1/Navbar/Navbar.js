@@ -37,8 +37,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className={`header fixed-top ${show ? 'bg-black' : 'bg-transparent'}`}>
-      <nav className="navbar navbar-expand-lg">
+    <div className={`header fixed-top ${show ? 'bg-black' : 'bg-transparent'}`} >
+      <nav className="navbar container navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="#" onClick={scrollToTop}>
             Logo
